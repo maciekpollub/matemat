@@ -1,0 +1,25 @@
+<div class="container">
+  <span style="font-weight: 900; color: white; position: absolute; cursor: pointer" (click)="onBackClick()">
+    <mat-icon style="width: 3rem; height: 3rem; font-size: 3rem;">keyboard_arrow_left</mat-icon>
+  </span>
+  <div class="main-row">
+    <div class="tile" (click)="onMaturaClick()">
+      <p>Matura 2024</p>
+    </div>
+    <div class="tile" (click)="onOsmaClick()">
+      <p>Egzamin 8-klasisty</p>
+    </div>
+    <div class="tile" (click)="onOtherClick()">
+      <p>Inne</p>
+    </div>
+  </div>
+
+  <div class="bottom-row">
+    <div class="info" (click)="onAboutTeacherClick()">
+      <p>O nauczycielu</p>
+    </div>
+    <div class="info" (click)="onContactClick()">
+      <p>Kontakt</p>
+    </div>
+  </div>
+</div>
