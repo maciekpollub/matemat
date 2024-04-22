@@ -12,4 +12,8 @@ export class OtherComponent {
   onBackClick() {
     this.router.navigate(['tiles'])
   }
+
+  onContactClick() {
+    this.router.navigate(['contact'])
+  }
 }
