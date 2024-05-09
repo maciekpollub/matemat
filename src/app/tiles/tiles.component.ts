@@ -22,8 +22,8 @@ export class TilesComponent {
     this.router.navigate(['contact'])
   }
 
-  onMaturaClick() {
-    this.router.navigate(['matura'])
+  onCorrectiveMaturaClick() {
+    this.router.navigate(['corrective-matura'])
   }
 
   onOsmaClick() {

@@ -12,6 +12,7 @@ import { TeacherComponent } from './tiles/teacher/teacher.component';
 import { ContactComponent } from './tiles/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { CorrectiveMaturaComponent } from './tiles/corrective-matura/corrective-matura.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MaterialModule } from './material/material.module';
     OsmaComponent,
     OtherComponent,
     TeacherComponent,
-    ContactComponent
+    ContactComponent,
+    CorrectiveMaturaComponent
   ],
   imports: [
     BrowserModule,
